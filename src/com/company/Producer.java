@@ -30,6 +30,7 @@ public class Producer implements Runnable{
                 Thread.sleep(randomNumber*1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
+                break;
             }
 
         }
